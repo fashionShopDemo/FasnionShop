@@ -49,7 +49,7 @@
 - (void)createIntroduce {
   
     [NetRequestClass netRequestGETWithRequestURL:@"http://api-v2.mall.hichao.com/app/splash?gc=appstore&gf=iphone&gn=mxyc_ip&gv=6.6.3&gi=27C3F6CE-7F12-493C-813C-DD71A58525A7&gs=640x1136&gos=9.2.1&access_token=" WithParameter:nil WithReturnValeuBlock:^(id responseObject, NSError *error) {
-//        NSLog(@"%@",responseObject);
+        NSLog(@"%@",responseObject);
         if ([responseObject[@"data"][@"appApi"] isEqualToString:@""]) {
             [self createPlaceholder];
         }
