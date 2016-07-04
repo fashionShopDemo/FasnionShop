@@ -1405,16 +1405,15 @@
 		04A1DC041D28C4770094198B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DBF11D28C4770094198B /* UIView+Extension.m */; };
 		04A1DC051D28C4770094198B /* UIView+IBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DBF31D28C4770094198B /* UIView+IBExtension.m */; };
 		04A1DC061D28C4770094198B /* UIView+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DBF51D28C4770094198B /* UIView+Runtime.m */; };
-		04A1DC0C1D28CA770094198B /* LYQHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DC0B1D28CA770094198B /* LYQHomeVC.m */; };
-		04A1DC0F1D28CA950094198B /* LYQCommunityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DC0E1D28CA950094198B /* LYQCommunityVC.m */; };
-		04A1DC121D28CAB60094198B /* LYQCollocativeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DC111D28CAB60094198B /* LYQCollocativeVC.m */; };
 		04A1DC171D28CBE90094198B /* FHMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DC161D28CBE90094198B /* FHMVC.m */; };
 		04A1DC1A1D28CBFB0094198B /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DC191D28CBFB0094198B /* MainVC.m */; };
 		04A1DC1D1D28CDDB0094198B /* NavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DC1C1D28CDDB0094198B /* NavVC.m */; };
 		04A1DC231D28D9B90094198B /* HomeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DC221D28D9B90094198B /* HomeTool.m */; };
 		04A1DC261D28DB8F0094198B /* HomeHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DC251D28DB8F0094198B /* HomeHeaderModel.m */; };
 		04A1DC291D291FAD0094198B /* HomeSixModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DC281D291FAD0094198B /* HomeSixModel.m */; };
-		04A1DC2C1D2927220094198B /* SixModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1DC2B1D2927220094198B /* SixModuleView.m */; };
+		04AAAB991D29FAFF0046B66F /* LYQCollocativeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAB921D29FAFF0046B66F /* LYQCollocativeVC.m */; };
+		04AAAB9A1D29FAFF0046B66F /* LYQCommunityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAB951D29FAFF0046B66F /* LYQCommunityVC.m */; };
+		04AAAB9B1D29FAFF0046B66F /* LYQHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAB981D29FAFF0046B66F /* LYQHomeVC.m */; };
 		04B5BF5F1D27C50200E7B876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5BF5E1D27C50200E7B876 /* main.m */; };
 		04B5BF621D27C50200E7B876 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5BF611D27C50200E7B876 /* AppDelegate.m */; };
 		04B5BF681D27C50200E7B876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B5BF661D27C50200E7B876 /* Main.storyboard */; };
@@ -2849,12 +2848,6 @@
 		04A1DBF31D28C4770094198B /* UIView+IBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBExtension.m"; sourceTree = "<group>"; };
 		04A1DBF41D28C4770094198B /* UIView+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Runtime.h"; sourceTree = "<group>"; };
 		04A1DBF51D28C4770094198B /* UIView+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Runtime.m"; sourceTree = "<group>"; };
-		04A1DC0A1D28CA770094198B /* LYQHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQHomeVC.h; sourceTree = "<group>"; };
-		04A1DC0B1D28CA770094198B /* LYQHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQHomeVC.m; sourceTree = "<group>"; };
-		04A1DC0D1D28CA950094198B /* LYQCommunityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQCommunityVC.h; sourceTree = "<group>"; };
-		04A1DC0E1D28CA950094198B /* LYQCommunityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQCommunityVC.m; sourceTree = "<group>"; };
-		04A1DC101D28CAB60094198B /* LYQCollocativeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQCollocativeVC.h; sourceTree = "<group>"; };
-		04A1DC111D28CAB60094198B /* LYQCollocativeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQCollocativeVC.m; sourceTree = "<group>"; };
 		04A1DC151D28CBE90094198B /* FHMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHMVC.h; sourceTree = "<group>"; };
 		04A1DC161D28CBE90094198B /* FHMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHMVC.m; sourceTree = "<group>"; };
 		04A1DC181D28CBFB0094198B /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
@@ -2867,8 +2860,12 @@
 		04A1DC251D28DB8F0094198B /* HomeHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderModel.m; sourceTree = "<group>"; };
 		04A1DC271D291FAD0094198B /* HomeSixModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSixModel.h; sourceTree = "<group>"; };
 		04A1DC281D291FAD0094198B /* HomeSixModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSixModel.m; sourceTree = "<group>"; };
-		04A1DC2A1D2927220094198B /* SixModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SixModuleView.h; path = ../../../Tool/SixModuleView.h; sourceTree = "<group>"; };
-		04A1DC2B1D2927220094198B /* SixModuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SixModuleView.m; path = ../../../Tool/SixModuleView.m; sourceTree = "<group>"; };
+		04AAAB911D29FAFF0046B66F /* LYQCollocativeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQCollocativeVC.h; sourceTree = "<group>"; };
+		04AAAB921D29FAFF0046B66F /* LYQCollocativeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQCollocativeVC.m; sourceTree = "<group>"; };
+		04AAAB941D29FAFF0046B66F /* LYQCommunityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQCommunityVC.h; sourceTree = "<group>"; };
+		04AAAB951D29FAFF0046B66F /* LYQCommunityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQCommunityVC.m; sourceTree = "<group>"; };
+		04AAAB971D29FAFF0046B66F /* LYQHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQHomeVC.h; sourceTree = "<group>"; };
+		04AAAB981D29FAFF0046B66F /* LYQHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQHomeVC.m; sourceTree = "<group>"; };
 		04B5BF5A1D27C50200E7B876 /* fashionShoppingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fashionShoppingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B5BF5E1D27C50200E7B876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B5BF601D27C50200E7B876 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -4371,38 +4368,6 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		04A1DC071D28C9AF0094198B /* collocative */ = {
-			isa = PBXGroup;
-			children = (
-				04A1DC101D28CAB60094198B /* LYQCollocativeVC.h */,
-				04A1DC111D28CAB60094198B /* LYQCollocativeVC.m */,
-			);
-			name = collocative;
-			path = Introduction/collocative;
-			sourceTree = "<group>";
-		};
-		04A1DC081D28C9AF0094198B /* community */ = {
-			isa = PBXGroup;
-			children = (
-				04A1DC0D1D28CA950094198B /* LYQCommunityVC.h */,
-				04A1DC0E1D28CA950094198B /* LYQCommunityVC.m */,
-			);
-			name = community;
-			path = Introduction/community;
-			sourceTree = "<group>";
-		};
-		04A1DC091D28C9AF0094198B /* HomePage */ = {
-			isa = PBXGroup;
-			children = (
-				04A1DC0A1D28CA770094198B /* LYQHomeVC.h */,
-				04A1DC0B1D28CA770094198B /* LYQHomeVC.m */,
-				04A1DC2A1D2927220094198B /* SixModuleView.h */,
-				04A1DC2B1D2927220094198B /* SixModuleView.m */,
-			);
-			name = HomePage;
-			path = Introduction/HomePage;
-			sourceTree = "<group>";
-		};
 		04A1DC131D28CB910094198B /* FHM */ = {
 			isa = PBXGroup;
 			children = (
@@ -4419,6 +4384,33 @@
 				04A1DC191D28CBFB0094198B /* MainVC.m */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		04AAAB901D29FAFF0046B66F /* collocative */ = {
+			isa = PBXGroup;
+			children = (
+				04AAAB911D29FAFF0046B66F /* LYQCollocativeVC.h */,
+				04AAAB921D29FAFF0046B66F /* LYQCollocativeVC.m */,
+			);
+			path = collocative;
+			sourceTree = "<group>";
+		};
+		04AAAB931D29FAFF0046B66F /* community */ = {
+			isa = PBXGroup;
+			children = (
+				04AAAB941D29FAFF0046B66F /* LYQCommunityVC.h */,
+				04AAAB951D29FAFF0046B66F /* LYQCommunityVC.m */,
+			);
+			path = community;
+			sourceTree = "<group>";
+		};
+		04AAAB961D29FAFF0046B66F /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				04AAAB971D29FAFF0046B66F /* LYQHomeVC.h */,
+				04AAAB981D29FAFF0046B66F /* LYQHomeVC.m */,
+			);
+			path = HomePage;
 			sourceTree = "<group>";
 		};
 		04B5BF511D27C50200E7B876 = {
@@ -4522,12 +4514,12 @@
 		04B5BF791D27E54300E7B876 /* VCs */ = {
 			isa = PBXGroup;
 			children = (
+				04AAAB901D29FAFF0046B66F /* collocative */,
+				04AAAB931D29FAFF0046B66F /* community */,
+				04AAAB961D29FAFF0046B66F /* HomePage */,
 				04A1DB901D28B0DB0094198B /* TabBar */,
 				04A1DC131D28CB910094198B /* FHM */,
 				04A1DC141D28CB910094198B /* Mine */,
-				04A1DC091D28C9AF0094198B /* HomePage */,
-				04A1DC081D28C9AF0094198B /* community */,
-				04A1DC071D28C9AF0094198B /* collocative */,
 				04A1DB8F1D28B0DB0094198B /* Introduction */,
 			);
 			path = VCs;
@@ -6059,15 +6051,14 @@
 				04A1DBFA1D28C4770094198B /* UIApplication+Extensions.m in Sources */,
 				04A1DC031D28C4770094198B /* UITextControl+FaultTolerance.m in Sources */,
 				04B5BF621D27C50200E7B876 /* AppDelegate.m in Sources */,
-				04A1DC0F1D28CA950094198B /* LYQCommunityVC.m in Sources */,
 				04A1DC171D28CBE90094198B /* FHMVC.m in Sources */,
 				04A1DC061D28C4770094198B /* UIView+Runtime.m in Sources */,
 				04A1DBFF1D28C4770094198B /* UIImage+Extension.m in Sources */,
 				04A1DC291D291FAD0094198B /* HomeSixModel.m in Sources */,
 				04A1DC1A1D28CBFB0094198B /* MainVC.m in Sources */,
-				04A1DC2C1D2927220094198B /* SixModuleView.m in Sources */,
-				04A1DC0C1D28CA770094198B /* LYQHomeVC.m in Sources */,
+				04AAAB991D29FAFF0046B66F /* LYQCollocativeVC.m in Sources */,
 				04A1DC011D28C4770094198B /* UILabel+Extension.m in Sources */,
+				04AAAB9B1D29FAFF0046B66F /* LYQHomeVC.m in Sources */,
 				04A1DBF91D28C4770094198B /* NSString+BXExtension.m in Sources */,
 				04A1DB9F1D28C11C0094198B /* BXTabBarBigButton.m in Sources */,
 				047351D61D27F74A00428AB3 /* RequestClient.m in Sources */,
@@ -6078,10 +6069,10 @@
 				04A1DBFE1D28C4770094198B /* UIFont+Extension.m in Sources */,
 				04A1DBA01D28C11C0094198B /* BXTabBarButton.m in Sources */,
 				04B5BF5F1D27C50200E7B876 /* main.m in Sources */,
-				04A1DC121D28CAB60094198B /* LYQCollocativeVC.m in Sources */,
 				04A1DC261D28DB8F0094198B /* HomeHeaderModel.m in Sources */,
 				04A1DBFD1D28C4770094198B /* UIDevice+DeviceType.m in Sources */,
 				04A1DC021D28C4770094198B /* UIScreen+Extension.m in Sources */,
+				04AAAB9A1D29FAFF0046B66F /* LYQCommunityVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
