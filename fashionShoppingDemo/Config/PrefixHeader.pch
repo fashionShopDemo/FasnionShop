@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  fashionShoppingDemo
+//
+//  Created by mac on 16/7/2.
+//  Copyright © 2016年 lyq. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+#import "Config.h"
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "ASIFormDataRequest.h"
+#import "FMDB.h"
+#import "JSONModelLib.h"
+#import "JSONKit.h"
+#import "NetRequestClass.h"
+#import "RequestClient.h"
+#import "BXExtensions.h"
+#import "HomeTool.h"
+#import "HomeHeaderModel.h"
+#import "HomeSixModel.h"
+#import "HomeBottomModel.h"
+#import "LYQCommunityTool.h"
